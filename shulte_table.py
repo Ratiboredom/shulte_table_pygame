@@ -125,7 +125,6 @@ while run:
     pg.display.flip()
 
     if next_num == 26:
+        time.sleep(2)
         run = False
     pg.display.update()
-
-print(f"Your time is {elapsed_time_str}")
